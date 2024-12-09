@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="arquivos/css/estilos.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-container">
+            <h2 id="auth-title">Login</h2>
+            <form id="auth-form">
+                <input type="email" id="auth-email" placeholder="E-mail" required>
+                <input type="password" id="auth-password" placeholder="Senha" required>
+                <!-- Campos extras para cadastro -->
+                <div id="extra-fields" class="hidden">
+                    <input type="text" id="auth-name" placeholder="Nome Completo">
+                    <input type="number" id="auth-age" placeholder="Idade" min="0">
+                    <select id="auth-gender">
+                        <option value="">Selecione o Sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+                </div>
+                <button type="submit" id="auth-action">Entrar</button>
+            </form>
+            <p id="auth-toggle">Ainda não tem uma conta? <span id="toggle-link">Cadastre-se</span></p>
+        </div>
+    </div>
+
+
+
+    <script src="arquivos/js/script.js"></script>
+</body>
+</html>

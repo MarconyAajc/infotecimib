@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="arquivos/css/estilos.css">
+    <title>Cursos Aajc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+   <header class="menu">
+        <div class="logo" id="menu">Cursos Aajc</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cursos.html">Curso</a></li>
+                <li><a href="#">Tutoriais</a></li>
+                <li><a href="guia.html">Guia</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+        <div class="btn-profile hidden" id="btn-profile">
+            <button id="profile-btn">Meu Perfil</button>
+            <div id="profile-menu" class="profile-menu hidden">
+                <ul>
+                    <li><strong id="user-name"></strong></li>
+                    <li><span id="user-email"></span></li>
+                    <li><button id="logout-btn">Sair</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-login" id="btn-login">
+            <button id="btn-auth"><a href="auth.html"> Entrar / Cadastrar</a></button>
+        </div>
+    </header>
+
+
+    <main class="main-cursos">
+        <div class="container">
+            <div class="sidebar">
+                <h2>CATEGORIAS</h2>
+                <ul>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#desenvolvimento">Desenvolvimento Web</a></li>
+                    <li><a href="#design">Design</a></li>
+                    <li><a href="#programacao">Programação</a></li>
+                </ul>
+            </div>
+            
+            <div class="main-content">
+                <div class="content-frame">
+                    <h2 class="categorias1" id="destaques">Destaques</h2>
+                    <!-- Cartões de curso serão adicionados dinamicamente aqui -->
+                </div>  
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section logo-section">
+                <h2><i class="icon"></i> Cursos Aajc</h2>
+            </div>
+            <div class="footer-section menu-section">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Todos Os Cursos</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact-section">
+                <h3>Contatos</h3>
+                <p><i class="phone-icon"></i> (11) 5555-5555</p>
+                <p><i class="whatsapp-icon"></i> (11) 99999-9999</p>
+                <p><i class="email-icon"></i> contato@cursosninja.com</p>
+            </div>
+            <div class="footer-section social-section">
+                <h3>Social</h3>
+                <a href="#"><i class="facebook-icon"></i></a>
+                <a href="#"><i class="twitter-icon"></i></a>
+                <a href="#"><i class="youtube-icon"></i></a>
+                <a href="#"><i class="instagram-icon"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Cursos Aajc 2024 - Todos Os Direitos Reservados</p>
+        </div>
+    </footer>
+
+<script src="arquivos/js/script.js"></script>
+</body>
+</html>

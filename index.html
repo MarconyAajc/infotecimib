@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="arquivos/css/estilos.css">
+    <title>Cursos Aajc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+    <header class="menu">
+        <div class="logo" id="menu">Cursos Aajc</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cursos.html">Curso</a></li>
+                <li><a href="#">Tutoriais</a></li>
+                <li><a href="guia.html">Guia</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+            </ul>
+        </nav>
+        <div class="btn-profile hidden" id="btn-profile">
+            <button id="profile-btn">Meu Perfil</button>
+            <div id="profile-menu" class="profile-menu hidden">
+                <ul>
+                    <li><strong id="user-name"></strong></li>
+                    <li><span id="user-email"></span></li>
+                    <li><button id="logout-btn">Sair</button></li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn-login" id="btn-login">
+            <button id="btn-auth"><a href="auth.html"> Entrar / Cadastrar</a></button>
+        </div>
+    </header>
+
+<main>
+    <section class="hero-section" style="background-image: url('arquivos/imagem/banner.png');">
+        <div class="hero-lado">
+            <p class="hero-titulo">APRENDIZADO ACELERADO</p>
+            <div class="txt-animado">
+                Comece Sua Jornada de Aprendizado Conosco E<br> <span></span>
+            </div>
+
+            <br><br><br><br><br><br>
+            <a href="#" class="btn-primary1 bnt-central">Ver todos os cursos</a>
+            <div class="features">
+                <div class="feature-box">NO SEU RITMO</div>
+                <div class="feature-box">SUPORTE ESPECIALIZADO</div>
+                <div class="feature-box">100% ATUALIZADO</div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="dtq-emvideo">
+            <h2 class="titulo">Cursos em Alta</h2>
+            <br><br>
+            <div class="dtq-principal-emvideo">
+                <div class="course-card">
+                        <img src="arquivos/imagem/cursos1.png" alt="Desenvolvimento Web do Zero">
+                        <h4 style="text-align: left;">Desenvolvimento Web do Zero</h4>
+                        <p style="text-align: left;">5.0 (1) - 1 aluno - 5h 28m</p>
+                        <p style="text-align: left;">Por Adminsite | Desenvolvimento Web</p>
+                        <a href="arquivos/html-secundario/curso-1.html" target="" class="btn-comprar">Começar Agora</a>
+                    </div>
+                    <div class="course-card">
+                        <img src="arquivos/imagem/cursos2.png" alt="Desenvolvimento Web do Zero">
+                        <h4 style="text-align: left;">Desenvolvimento Web do Zero</h4>
+                        <p style="text-align: left;">5.0 (1) - 1 aluno - 5h 28m</p>
+                        <p style="text-align: left;">Por Adminsite | Desenvolvimento Web</p>
+                        <a href="todos-cursos/curso-1.html" class="btn-comprar">Começar Agora</a>
+                    </div>
+                    <div class="course-card">
+                        <img src="arquivos/imagem/cursos3.png" alt="Desenvolvimento Web do Zero">
+                        <h4 style="text-align: left;">Desenvolvimento Web do Zero</h4>
+                        <p style="text-align: left;">5.0 (1) - 1 aluno - 5h 28m</p>
+                        <p style="text-align: left;">Por Adminsite | Desenvolvimento Web</p>
+                        <a href="todos-cursos/curso-1.html" class="btn-comprar">Começar Agora</a>
+                    </div>
+            </div>
+            <div class="bnt-central-wrapper" style="margin-top: 80px;">
+                <a href="#" class="btn-primary bnt-central">Ver todos os cursos</a>
+            </div>
+        </section>
+
+<!--
+        <section class="tutorials-section">
+            <h2 class="titulo">Tutoriais em Alta</h2>
+            <div class="tutorials-grid">
+                <div class="tutorial-item tutorial1" style="background-image: url('arquivos/imagem/tutoriais1.png')"></div>
+                <div class="tutorial-item tutorial2" style="background-image: url('arquivos/imagem/tutoriais2.png')"></div>
+                <div class="tutorial-item tutorial3" style="background-image: url('arquivos/imagem/tutoriais3.png')"></div>
+                <div class="tutorial-item tutorial4" style="background-image: url('arquivos/imagem/p1.png')">Ver mais</div>
+            </div>
+            <div class="bnt-central-wrapper">
+                <a href="#" class="btn-primary bnt-central">Ver mais tutoriais</a>
+            </div>
+        </section>
+-->
+
+        <section class="tutorials-section" id="guia">
+            <h2 class="titulo">O que é o Guia?</h2>
+            <div class="top10-centro">
+                <video controls poster="arquivos/imagem/p1.png">
+                    <source src="arquivos/video/1.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="bnt-central-wrapper" style="margin-top: -20px;">
+                <a href="#" class="btn-primary bnt-central">Ver Guia</a>
+            </div>
+        </section>
+
+
+        <section style="margin-top: 120px; margin-bottom: 150px;" class="dtq-emvideo" id="loja">
+            <div class="titulo">
+                    <h2 class="sub subprodutos">Produtos</h2>
+                </div>
+            <div class="promo">
+                <div class="promo_lado" style="background-image: url('arquivos/imagem/promo1.png');">
+                   
+                </div>
+                <div class="promo_lado promo_direita">
+                    <div class="promo_cb" style="background-image: url('arquivos/imagem/promo2.png')"></div>
+                    <div class="promo_cb" style="background-image: url('arquivos/imagem/promo3.png')"></div>
+                </div>
+            </div>
+        </section>
+
+
+
+<!--
+        <section style="margin-top: 120px; margin-bottom: 150px;" class="dtq-emvideo" id="loja">
+            <div>
+                <div class="titulo">
+                    <h2 class="sub subprodutos">Produtos</h2>
+                    <p class="sub1produtos">Explore nossa seleção de produtos imperdíveis!</p>
+                </div>
+
+            </div>
+            <div class="dtq-principal-emvideo">
+                <div class="cardpdt">
+                    <img src="arquivos/imagem/produto1.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>Software Pro</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>100.000kz</span>
+                            </div>
+                        </div>
+                        <p>Digital</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardpdt esp">
+                    <img src="arquivos/imagem/produto2.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>Hardwere X</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>200.000kz</span>
+                            </div>
+                        </div>
+                        <p>Fisíco</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardpdt">
+                    <img src="arquivos/imagem/produto3.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>e-book Avançado</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>1000kz</span>
+                            </div>
+                        </div>
+                        <p>Digital</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<br><br><br><br><br>
+
+            <div class="dtq-principal-emvideo">
+                <div class="cardpdt">
+                    <img src="arquivos/imagem/produto4.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>Software Pro</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>100.000kz</span>
+                            </div>
+                        </div>
+                        <p>Digital</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardpdt esp">
+                    <img src="arquivos/imagem/produto5.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>Hardwere X</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>200.000kz</span>
+                            </div>
+                        </div>
+                        <p>Fisíco</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardpdt">
+                    <img src="arquivos/imagem/produto6.png">
+                    <div>
+                        <div>
+                            <div class="pdtnome">
+                                <span>e-book Avançado</span>
+                            </div>
+                            <div class="pdtpreço">
+                                <span>1000kz</span>
+                            </div>
+                        </div>
+                        <p>Digital</p>
+                        <div>
+                            <a href="#" class="comprar-agora">Comprar agora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bnt-central-wrapper">
+                <a href="#" class="btn-primary bnt-central">Ver loja</a>
+            </div>
+        </section>
+-->
+
+        <section class="curso-ead">
+            <div class="texto-curso">
+                <h2>Assine nossa Newsletter</h2>
+                <p>Receba atualizações sobre cursos, tutoriais, promoções e novidades diretamente no nosso canal do WhatsApp. clique abaixo para se inscrever.</p>
+                <div class="bnt-central-wrapper">
+                <a href="#" class="btn-assinar">Ver loja</a>
+            </div>
+            </div>
+            <div class="imagem-curso">
+                <video controls poster="arquivos/imagem/p1.png">
+                    <source src="arquivos/video/1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+<!--
+        <section class="curso-ead">
+            <div class="texto-curso">
+                <h2>Por que escolher nossos cursos EAD?</h2>
+                <p>Nossos cursos a distância oferecem uma forma flexível e eficaz de adquirir novas habilidades e avançar na sua carreira, tudo isso de acordo com seu próprio cronograma e de qualquer lugar do mundo.</p>
+            </div>
+            <div class="imagem-curso">
+                <img src="arquivos/imagem/p1.png" alt="Pessoa estudando em um ambiente iluminado">
+            </div>
+        </section>
+-->
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+    <div class="footer-container">
+        <div class="footer-section logo-section">
+            <h2><i class="icon"></i> Cursos Aajc</h2>
+        </div>
+        <div class="footer-section menu-section">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Todos Os Cursos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact-section">
+            <h3>Contatos</h3>
+            <p><i class="phone-icon"></i> (11) 5555-5555</p>
+            <p><i class="whatsapp-icon"></i> (11) 99999-9999</p>
+            <p><i class="email-icon"></i> contato@cursosninja.com</p>
+        </div>
+        <div class="footer-section social-section">
+            <h3>Social</h3>
+            <a href="#"><i class="facebook-icon"></i></a>
+            <a href="#"><i class="twitter-icon"></i></a>
+            <a href="#"><i class="youtube-icon"></i></a>
+            <a href="#"><i class="instagram-icon"></i></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Cursos Aajc 2024 - Todos Os Direitos Reservados</p>
+    </div>
+</footer>
+
+
+
+<script type="module" src="arquivos/js/script.js"></script>
+</body>
+</html>
